@@ -66,8 +66,6 @@ This project leverages SparkSQL to analyze home sales data and extract key insig
 
 * SparkSQL
 
-* AWS S3 (for data storage)
-
 * Parquet (for optimized data storage and retrieval)
 
 * Jupyter Notebook
