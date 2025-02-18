@@ -58,7 +58,7 @@ This project leverages SparkSQL to analyze home sales data and extract key insig
 * Caching (0.44s) was the fastest, as Spark retrieved data from memory.
 * Partitioning (0.87s) was slower than caching but still improved over the uncached query (1.18s) due to efficient data pruning.
 * Partitioning did not outperform caching because caching keeps frequently accessed data in memory, while partitioning still requires disk access.
-**Conclusion:** While partitioning improved query efficiency by reducing scanned data, caching is more effective when running repeated queries on the same dataset.
+<p>**Conclusion:** While partitioning improved query efficiency by reducing scanned data, caching is more effective when running repeated queries on the same dataset.
 
 
 ## Technologies Used
